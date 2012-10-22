@@ -1,0 +1,21 @@
+{
+  "name": "G1 Unhate/G1 melhor",
+    "description": "g1.globo.com sem os comentários.
+     'Uma sábia velha coruja vivia em uma árvore/
+     Quanto mais via, menos falava/
+     Quanto menos falava, mais ouvia/
+     Porquê não podemos todos ser como a sábia velha coruja?'
+    ",
+    "icons":{
+    "48":"g1unhate48.png",
+    "128":"g1unhate.png"
+    },
+    "version": "1.0",
+    "content_scripts": [
+    {
+      "matches": ["http://g1.globo.com/*"],
+      "css": ["abc.css"]
+    }
+  ],
+    "manifest_version": 2
+}
