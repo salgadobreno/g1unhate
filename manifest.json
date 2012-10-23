@@ -5,7 +5,7 @@
     "48":"g1unhate48.png",
     "128":"g1unhate.png"
     },
-    "version": "1.0",
+    "version": "0.0.1",
     "content_scripts": [
     {
       "matches": ["http://g1.globo.com/*"],
